@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Index page</title>
+
+    <!-- Bring in our bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="Resources/style.css">
+</head>
+
+
+
+<body>
+    <!-- navbar collaspe -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Visualizations Dashboard</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <!-- navbar collaspe -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <!-- data tab -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="Data.html">Data</a>
+                    </li>
+                    <!-- comparison tab -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="comparisons.html">comparisons</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Plots
+                        </a>
+                        <!-- dropdown menue -->
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"></ul>
+                            <li><a class="dropdown-item" href="Visualizations/Maxtemp.html">Max Temperature</a></li>
+                            <li><a class="dropdown-item" href="Visualizations/Humidity.html">Humidity</a></li>
+                            <li><a class="dropdown-item" href="Visualizations/Cloudiness.html">Cloudiness</a></li>
+                            <li><a class="dropdown-item" href="Visualizations/Windspeed.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+                
+    <!-- row function in containers (grid created). -->
+    <div class="container">
+        <!--  column function in rows. -->
+        <div class="row">
+
+        <!-- Columns have 12 areas of width. -->
+
+        <!-- One third of screen (4/12) -->
+        <div class="col-md-8">
+            <h2>Visualizations</h2>
+            <a href="Visualizations/Maxtemp.html"><img src="Resources/assets/images/Fig1.png" alt="" width: 100px height:100px></a>
+            <a href="Visualizations/Humidity.html"><img src="Resources/assets/images/Fig2.png" alt=""  width: 180px height:180px></a>
+            <a href="Visualizations/Cloudiness.html"><img src="Resources/assets/images/Fig3.png" alt=""  width: 180px height:180px></a>
+            <a href="Visualizations/Windspeed.html"><img src="Resources/assets/images/Fig4.png" alt=""  width: 180px height:180px></a>
+        <!--column 2 of 3 -->
+        </div>
+
+
+        <!-- Columns float left, so all adjacent rows will appear next to each other (as long as not all space gets taken up) -->
+        </div>
+    </div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+</body> -->
